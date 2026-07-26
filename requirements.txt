@@ -1,0 +1,12 @@
+numpy
+librosa
+pyworld
+soundfile
+
+# Notes:
+# - librosa's mp3 decoding needs ffmpeg installed on your system (not a pip
+#   package) -- e.g. `brew install ffmpeg` on macOS, `apt install ffmpeg` on
+#   Debian/Ubuntu, or download a build for Windows.
+# - pyworld installs a compiled C extension; if `pip install pyworld` fails,
+#   make sure you have a C++ build toolchain available (on macOS: Xcode
+#   command line tools; on Windows: Microsoft C++ Build Tools).
